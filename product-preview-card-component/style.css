@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 600px;
+    height: 450px;
+}
+
+div {
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    width: 300px;
+    height: 450px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+img {
+    justify-content: flex-start;
+    border-radius: 10px 0 0 10px;
+    width: 300px;
+    height: auto;
+    
+}
+
+.img2 {
+    display: none;
+}
+
+.head {
+    font: 0.7rem 'Montserrat', sans-serif;
+    margin-bottom: 15px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3rem;
+
+}
+
+.sub {
+    font: 2rem 'Fraunces', sans-serif;
+    margin-bottom: 30px;
+    color: hsl(212, 21%, 14%);
+    line-height: 2rem;
+}
+
+.main {
+    margin-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+    width: 210px;
+    font: 0.8rem 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+}
+
+.price {
+    font-size: 1.5rem;
+    font: 2rem 'Fraunces', sans-serif;
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.sub1 {
+    font: 0.8rem 'Montserrat', sans-serif;
+    text-align: center;
+    color: hsl(228, 12%, 48%);
+    vertical-align: middle;
+    
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 58px 12px 58px;
+    font: 0.8rem 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:active {
+    background-color: hsl(158, 36%, 20%);
+}
+
+@media screen and (max-width: 375px) {
+
+    
+
+    article {
+        flex-direction: column;
+        width: 300px;
+
+    }
+
+    img {
+        
+        border-radius: 10px 10px 0 0;
+    }
+
+    div {
+        
+        padding: 20px;
+        border-radius: 0 0 10px 10px;
+        
+
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: inline;
+       
+        
+    }
+
+    .head {
+        font-size: 0.6rem;
+        margin-bottom: 10px;
+        
+    }
+
+    .sub {
+        font-size: 1.7rem;
+        margin-bottom: 12px;
+        
+    }
+
+    .main {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        width: 270px;
+    }
+
+    .price {
+        font-size: 1.8rem;
+    }
+
+    .sub1 {
+        font-size: 0.7rem;
+    }
+
+    button {
+        font-weight: 550;
+    }
+
+}
